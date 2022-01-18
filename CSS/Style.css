@@ -8,4 +8,7 @@ nav
     
 }
 
-.navbar{text-transform: uppercase;}
+.navbar{text-transform: uppercase; margin:0px;
+    padding:20px;}
+
+.nav-link:hover {}    
