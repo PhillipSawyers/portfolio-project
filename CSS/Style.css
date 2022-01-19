@@ -11,4 +11,13 @@ nav
 .navbar{text-transform: uppercase; margin:0px;
     padding:20px;}
 
-.nav-link:hover {}    
+#profilepicture {width: 180px; 
+    height: 180px; 
+    margin: 50px; 
+    position: absolute; top: 120px; 
+    border-style:solid;
+    border-color:lightslategray;
+    border-width: 5px;
+    border-radius: 50%;
+}
+
