@@ -21,3 +21,10 @@ nav
     border-radius: 50%;
 }
 
+.Subheading {font-weight:bold;
+padding:50px;
+margin:50px;}
+
+h2 {font-weight:bold;
+    padding:50px;
+    margin:50px;}
