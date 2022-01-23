@@ -22,10 +22,14 @@ nav
 }
 
 
-h2 {font-weight:bolder ;
+h2 {color: lightslategray;
+    font-weight:bolder ;
     padding:50px;
-    margin:50px;
+    margin: 50px;0px;
 font-family:'Times New Roman', Times, serif
 ; font-style: italic; }
 
 .text {padding: 30px; margin: 0px;}
+
+.shadow {box-shadow: 
+}
