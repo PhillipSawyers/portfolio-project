@@ -11,7 +11,7 @@
   </head>
   <body> 
       <!-- Navigation bar start-->
-     <div>
+     <div id="home">
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <a  class="navbar-brand" href="">PHILLIP SAWYERS | Portfolio</a>
@@ -21,13 +21,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacts</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 
                 </ul>
@@ -45,7 +45,7 @@
      <!-- Navigation bar end-->
      
      <!-- About Start-->
-     <div class="container mt-5" >
+     <div id="about" class="container mt-5" >
          <div>
              <h2> ABOUT ME </h2>
          </div>
@@ -176,6 +176,70 @@
 
 
     <!-- Work Experience End-->
+
+          <!-- Education Start-->
+          <div class="container mt-5" >
+            <div>
+                <h2> EDUCATION </h2>
+            </div>
+    
+            <div class="shadow">
+                <p class="text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales libero at ligula dictum, 
+                    ut facilisis justo sagittis. Proin eget massa eu metus tincidunt tristique. Morbi tristique facilisis dui, 
+                    vitae rutrum turpis porta sed. Integer tristique euismod placerat. In eget odio sem. Praesent a tristique nulla, 
+                    at aliquet sapien. Donec mollis consectetur neque nec laoreet. Nullam maximus, nisl ac sodales dignissim, 
+                    ipsum arcu congue sem, at feugiat dolor diam ut lacus. Vestibulum vestibulum accumsan ultricies. 
+                    Phasellus ac dolor vitae turpis facilisis consequat. Ut gravida tempus varius. 
+                    Donec eu leo sed leo congue eleifend quis sed arcu.
+               </p>
+            </div>
+    
+    
+        </div>
+    
+    
+        <!-- Education End-->
+
+        <!-- Contact Start-->
+        <div id="contact" class="container mt-5" >
+          <div>
+              <h2> CONTACT </h2>
+          </div>
+  
+          <div class="shadow">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label"> Email   </label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address">
+              </div>
+              <br>
+        
+              <div class=" col-md-6 col-12 ml-5">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="Name" placeholder="Name">
+              </div>
+              <div class="form-floating" class="mt-5">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2"></label>
+              </div>
+              
+              
+              
+              
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Send</button>
+              </div>
+            </form>
+
+
+             
+             
+          </div>
+  
+  
+      </div>
+
+        <!-- Contact End-->
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
