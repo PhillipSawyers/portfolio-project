@@ -11,23 +11,23 @@ nav
 .navbar{text-transform: uppercase; margin:0px;
     padding:20px;}
 
-#profilepicture {width: 180px; 
-    height: 180px; 
+#profilepicture {width: 170px; 
+    height: 170px; 
     margin: 50px; 
     position: absolute; top: 120px; 
     border-style:solid;
-    border-color:lightslategray;
-    border-width: 5px;
+    border-color:black;
+    border-width: 3px;
     border-radius: 50%;
 }
 
 
-h2 {color: lightslategray;
+h3  {color: black;
     font-weight:bolder ;
     padding:50px;
     margin: 50px;0px;
-font-family:'Times New Roman', Times, serif
-; font-style: italic; }
+   : font-family:'Times New Roman', Times, serif
+; font-style:bold; text-align:center; }
 
 .text {padding: 30px; margin: 0px;}
 
@@ -37,3 +37,15 @@ font-family:'Times New Roman', Times, serif
 #inputEmail4 {border-radius: 50px; margin-left: 10px; width: 400px;}
 
 #Name {border-radius: 50px; margin-left: 10px; width: 400px;}
+
+footer {text-align: center; padding-bottom: 50px; padding-top: 50px ;}
+
+footer .fab {color: black;}
+
+footer .fa-linkedin-in:hover  {color:#3b5998;}
+
+footer .fa-instagram:hover {color:rgb(131, 58, 180)}
+
+footer .fa-facebook:hover {color:#0077b5;}
+
+.fab {padding: 10px;}
