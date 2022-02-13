@@ -28,10 +28,12 @@ h3  {color: black;
    : font-family:'Times New Roman', Times, serif
 ; font-style:bold; text-align:center; }
 
-.text {padding: 30px; margin: 0px;}
+.text {padding: 15px; margin: 0px;}
 
 .shadow {box-shadow: 
 }
+
+p span {font-family: 'Times New Roman', Times, serif;}
 
 a {color: yellow;}
 
@@ -51,7 +53,11 @@ footer .fa-facebook:hover {color:#0077b5;}
 
 .fab {padding: 10px;}
 
-.titlehead {font-weight:bold; }
+.titlehead {font-weight:bold;  color:white ; }
+
+.titlehead2 {font-weight:bold;  color:black; }
+
+.divcolour {background-color: black;}
 
 .link {color:grey; text-decoration: none;}
 
@@ -62,8 +68,6 @@ footer .fa-facebook:hover {color:#0077b5;}
 .form-label {padding: 20px;}
 
 #floatingTextarea2 {height: 100px; margin: 5px; width: 95%; padding: 20px;} 
-
- 
 
 .btn {margin: 20px;}
 
