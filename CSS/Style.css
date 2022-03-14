@@ -11,15 +11,22 @@ nav
 .navbar{text-transform: uppercase; margin:0px;
     padding:20px;}
 
-#profilepicture {width: 170px; 
-    height: 170px; 
+#profilepicture {width: 140px; 
+    height: 140px; 
     margin: 50px; 
-    position: absolute; top: 120px; 
+    position:relative; bottom: 250px; 
     border-style:solid;
     border-color:black;
     border-width: 3px;
     border-radius: 50%;
 }
+
+
+#profilepicture img {width: auto;}
+
+#bannerbackground {width:200%; height: auto; }
+
+#bannerbackground img {width: auto;}
 
 h3  {color: black;
     font-weight:bolder ;
@@ -33,13 +40,17 @@ h3  {color: black;
 .shadow {box-shadow: 
 }
 
-p span {font-family: 'Times New Roman', Times, serif;}
+span {font-family:'Times New Roman', Times, serif;}
+
+p {font-family:'Times New Roman', Times, serif;}
+
+form {font-family:'Times New Roman', Times, serif;}
 
 a {color: yellow;}
 
-#inputEmail4 {border-radius: 50px; margin-left: 10px; width: 90%;}
+#email {border-radius: 50px; margin-left: 10px; width: 90%;}
 
-#Name {border-radius: 50px; margin-left: 10px; width: 90%;}
+#name {border-radius: 50px; margin-left: 10px; width: 90%;}
 
 footer {text-align: center; padding-bottom: 50px; padding-top: 50px ;}
 
@@ -67,8 +78,10 @@ footer .fa-facebook:hover {color:#0077b5;}
 
 .form-label {padding: 20px;}
 
-#floatingTextarea2 {height: 100px; margin: 5px; width: 95%; padding: 20px;} 
+#comment {height: 100px; margin: 0px; width: 100%; padding: 20px;} 
 
 .btn {margin: 20px;}
 
 .btn-dark:hover {color:gold;}
+
+a.navbar-brand {font-size:16px;}

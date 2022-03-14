@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="CSS/Style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/68eecd4fe0.js" crossorigin="anonymous"></script>
     <title>Portfolio Project</title>
   </head>
   <body> 
       <!-- Navigation bar start-->
-     <div id="home">
+
+     <header id="home">
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <a  class="navbar-brand" href="">PHILLIP SAWYERS | Portfolio</a>
@@ -35,16 +36,17 @@
             </div>
           </nav>
           <div class="col-lg-6 col-md-6 col-12">
-              <img style="width:200%;" src="Images/background.jpg" alt="background image">
+              <img id="bannerbackground" src="images/background.jpg" alt="background image">
               <img id="profilepicture" src="images/phillip.jpg" alt="profile picture">
           </div>
           <div> 
           </div>
-     </div>
+     </header>
      <!-- Navigation bar end-->
      
      <!-- About Start-->
-     <div id="about" class="container mt-5 " >
+     <main>
+     <div id="about" class="container mt- " >
          <div>
            
              <h3> ABOUT ME <i class="fas fa-male"></i> </h3>
@@ -89,11 +91,11 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="card">
-                    <img src="Images/Twinsane.jpg" class="card-img-top" alt="coming soon">
+                    <img src="images/Twinsane.jpg" class="card-img-top" alt="coming soon">
                     <div class="card-body">
                       <h5 class="card-title"></h5>
-                      <p class="card-text">Personal Website.</p>
-                      <a href="https://twinsanefitness.com/" target="_blank" class="btn btn-dark">click</a>
+                      <p class="card-text">Personal Fitness business Website.</p>
+                      <a href="https://twinsanefitness.com/" target="_blank" class="btn btn-dark">See More</a>
                     </div>
                   </div>
 
@@ -104,8 +106,8 @@
                     <img src="images/soon.jpg" class="card-img-top" alt="coming soon">
                     <div class="card-body">
                       <h5 class="card-title"></h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-dark">click</a>
+                      <p class="card-text">Coming soon.</p>
+                      <a href="#" class="btn btn-dark">See More</a>
                     </div>
                   </div>
 
@@ -116,8 +118,8 @@
                     <img src="images/soon.jpg" class="card-img-top" alt="coming soon">
                     <div class="card-body">
                       <h5 class="card-title"></h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-dark">click</a>
+                      <p class="card-text">Coming soon.</p>
+                      <a href="#" class="btn btn-dark">See More</a>
                     </div>
                   </div>
 
@@ -128,8 +130,8 @@
                     <img src="images/soon.jpg" class="card-img-top" alt="coming soon">
                     <div class="card-body">
                       <h5 class="card-title"></h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-dark">click</a>
+                      <p class="card-text">Coming soon.</p>
+                      <a href="#" class="btn btn-dark">See More</a>
                     </div>
                   </div>
 
@@ -140,8 +142,8 @@
                     <img src="images/soon.jpg" class="card-img-top" alt="coming soon">
                     <div class="card-body">
                       <h5 class="card-title"></h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-dark">click</a>
+                      <p class="card-text">Coming soon.</p>
+                      <a href="#" class="btn btn-dark">See More</a>
                     </div>
                   </div>
 
@@ -152,8 +154,8 @@
                     <img src="images/soon.jpg" class="card-img-top" alt="coming soon">
                     <div class="card-body">
                       <h5 class="card-title"></h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-dark">click</a>
+                      <p class="card-text">Coming soon.</p>
+                      <a href="#" class="btn btn-dark">See More</a>
                     </div>
                   </div>
 
@@ -201,7 +203,8 @@
                     <p class="text"> <span class="titlehead"> Delivery Driver. Avis Rent a Car, Birmingham. March 2007 – 2016. </span>  </p>
                     </div>
                       <div class="col-lg-9 col-md-9 col-12"><p class="text"> In this role I delivered cars to businesses and home delivery customers, as part of the role, customers would be shown around the vehicle informing them of damage the vehicle may have occurred from a previous renter. Customer were also shown how to use the vehicle. Further duties included valeting the cars and filling them with the correct fuel ensuring the car was presented in a professional manor. The skills that were required for this job were, reporting skills, high attention to detail, being kind and polite, being able to complete paper work, having good written and communication skills, working in a team, having good knowledge on routes that were taken and having excellent customer service skills.
-                       </p> </div>
+                       </p> 
+                      </div>
                     </div>
                     
                     </div> <br> <br>
@@ -212,15 +215,12 @@
                         <p class="text"> <span class="titlehead"> Fitness Instructor. Alexander Stadium, Birmingham. </span>  </p>
                         </div>
                           <div class="col-lg-9 col-md-9 col-12"><p class="text"> My duties for this role involved giving inductions to new clients by showing them how to use the gym equipment safely and ensuring they used the correct form when using the equipment to reduce the risk of improper use and injury. I also gave the clients awareness of fire exits and fire drill procedures. I was always informed by reception via phone call to the gym telephone making me aware of a client coming to receive an induction. My duties further included promoting the services of the facility and building a rapport with the clients, assessing their ability and providing them with a suitable fitness programme.
-                           </p> </div>
+                           </p> 
+                          </div>
                         </div>
                         
                         </div>
-              
-        
-
-
-    </div>
+              </div>
 
 
     <!-- Work Experience End-->
@@ -241,7 +241,9 @@
                     <div class="col-lg-9 col-md-9 col-12"><p class="text"> HTML <br>
                       CSS<br>
                       Javascript
-                      <br> <br> </p> </div>
+                      <br> <br> </p> 
+                    
+                  </div>
                   </div>
                   
                   </div> <br> <br>
@@ -279,7 +281,8 @@
                                       Enhanced Training systems
                                       Enhanced Circuit training
                                       Enhanced Business skills
-                                       </p> </div>
+                                       </p> 
+                                      </div>
                                   </div>
                                   
                                   </div> <br> <br>  
@@ -334,26 +337,27 @@
         <!-- Education End-->
 
         <!-- Contact Start-->
-        <div id="contact" class="container mt-5 col-md-6 formimg "   >
+
+        <div id="contact" class="container mt-5 col-md-6 col-12 formimg">
           <div>
               <h3> CONTACT <i class="far fa-address-card"></i> </h3>
           </div>
   
-          <div class="shadow" >
+          <div class="shadow">
             <form class="row g-3">
               <div class="col-md-6">
-                <label for="inputEmail4" class="form-label"> Email   </label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address">
+              <label for="email" class="form-label"> Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email Address">
               </div>
               <br>
         
               <div class=" col-md-6 col-12 ml-5">
-                <label for="Name" class="form-label"> Name</label>
-                <input type="text" class="form-control" id="Name" placeholder="Name">
+                <label for="name" class="form-label"> Name</label>
+                <input type="text" class="form-control" id="name" placeholder="name">
               </div>
               <div class="form-floating" class="mt-5">
-                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
-                <label for="floatingTextarea2">Your Message Here</label>
+                 <textarea class="form-control" placeholder="Leave a comment here" id="comment"></textarea>
+                <label for="comment">Your Message Here</label>
               </div>
               
               
@@ -371,10 +375,10 @@
   
   
       </div>
+    </main>
 
         <!-- Contact End-->
-      <div class="container mt-5">
-        <footer>
+      <footer class="container mt-5">
           
           <div>
           <a href="https://www.facebook.com/Twinpz" alt="facebook" target="_blank"> <i class="fab fa-facebook fa-lg"></i></a>
@@ -391,8 +395,8 @@
           
            &copy; 2022 
         </div>
-        </footer>
-      </div>
+        
+      </footer>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
