@@ -4,6 +4,9 @@ nav {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
 }
+header {
+  margin-bottom: -200px;
+}
 
 .navbar {
   text-transform: uppercase;
